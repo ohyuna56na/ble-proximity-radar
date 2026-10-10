@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">BLE Proximity Scanner</string>
+    <string name="scanner">Scanner</string>
+    <string name="tracking">Tracking</string>
+    <string name="riwayat">Riwayat</string>
+
+    <!-- Scanner UI -->
+    <string name="title_radar">RADAR BLUETOOTH</string>
+    <string name="subtitle_scanner">Pantau perangkat Bluetooth di sekitar secara real-time</string>
+    <string name="status_ready">Siap memindai</string>
+    <string name="summary_title">RINGKASAN SINYAL</string>
+    <string name="label_active_devices">Perangkat aktif</string>
+    <string name="label_strongest_rssi">RSSI terkuat</string>
+    <string name="label_closest_device">Paling dekat</string>
+    <string name="label_last_update">Pembaruan terakhir</string>
+    <string name="btn_start_scan">Start Scan</string>
+    <string name="btn_stop_scan">Stop Scan</string>
+    <string name="title_devices_around">Perangkat di sekitar</string>
+    <string name="hint_search">Cari nama, MAC address, atau UUID</string>
+    <string name="btn_filter">Filter</string>
+    <string name="filter_60">-60 dBm</string>
+    <string name="filter_70">-70 dBm</string>
+    <string name="filter_80">-80 dBm</string>
+    <string name="filter_all">Semua</string>
+    <string name="btn_track">Lacak</string>
+    <string name="unknown_device">Perangkat Tidak Dikenal</string>
+    <string name="device_count_format">%1$d perangkat</string>
+    <string name="_0_perangkat">0 perangkat</string>
+
+    <!-- Tracking UI -->
+    <string name="radar_view">RADAR VIEW</string>
+    <string name="title_tracking">Tracking</string>
+    <string name="icon_empty_radar">Icon Empty Radar</string>
+    <string name="empty_tracking">Belum ada perangkat yang dilacak</string>
+    <string name="desc_empty_tracking">Pilih perangkat dari Scanner untuk mulai melacak</string>
+    <string name="btn_open_scanner">Buka Scanner</string>
+    <string name="default_target_name">Beacon Target</string>
+    <string name="default_mac_address">00:00:00:00:00</string>
+    <string name="btn_release_target">Lepas</string>
+    <string name="default_distance">0.0 m</string>
+    <string name="default_category">Kuat (Dekat)</string>
+    <string name="default_rssi_label">Kekuatan Sinyal: -0 dBm</string>
+
+    <!-- History UI -->
+    <string name="title_history_category">CATATAN PERANGKAT</string>
+    <string name="title_history">Riwayat Perangkat</string>
+    <string name="subtitle_history">Data tersimpan secara lokal di database ini.</string>
+    <string name="label_saved">Tersimpan</string>
+    <string name="_0">0</string>
+    <string name="label_today">Hari ini</string>
+    <string name="title_saved_devices">Perangkat tersimpan</string>
+    <string name="btn_clear_history">Hapus riwayat</string>
+
+    <!-- Item Device UI -->
+    <string name="device_name">Beacon Lobby</string>
+    <string name="mac_address">C4:7A:21:9B:02:11</string>
+    <string name="rssi">-42 dBm</string>
+    <string name="badge">Kuat</string>
+    <string name="distance_time">1,8 m · Data contoh</string>
+    <string name="trace">Lacak</string>
+
+</resources>
